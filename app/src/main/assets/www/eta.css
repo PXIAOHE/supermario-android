@@ -1,0 +1,9 @@
+/* Eta: 手机端全屏游戏布局 —— 隐藏左侧菜单/二维码/顶部栏，只留游戏 */
+[class*="Home_MenuContainer"] { display: none !important; }
+[class*="Home_Header"] { display: none !important; }
+[class*="Home_Content"] { flex: 1 1 100% !important; width: 100% !important; }
+[class*="Home_Game"] { height: 100% !important; width: 100% !important; }
+[class*="menu_QRcode"] { display: none !important; }
+[class*="Home_Tip"] { display: none !important; }
+html, body { margin: 0; padding: 0; overflow: hidden; background: #000; }
+canvas { max-width: 100%; max-height: 100%; }

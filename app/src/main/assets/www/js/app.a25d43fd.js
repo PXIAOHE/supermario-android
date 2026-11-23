@@ -17,7 +17,7 @@ var shared_esm_bundler = __webpack_require__(586);
 /* harmony default export */ var Appvue_type_script_setup_true_lang_js = ({
   setup(__props) {
     function isMobile() {
-      let flag = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      let flag = false; // eta: 手机端解锁（原版会拦移动端）
       return flag;
     }
     return (_ctx, _cache) => {
